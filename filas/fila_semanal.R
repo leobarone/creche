@@ -5,7 +5,7 @@ rm(list=ls())
 library(XML)
 library(RSelenium)
 
-setwd("~/leo/creche/")
+setwd("~/leo/creche/filas")
 
 load("distritos_creche.RData")
 
@@ -41,35 +41,12 @@ for (i in 1:nrow(dir.dist.idade)){
 
 inscritos$data.captura <- Sys.time()
 
-
 # CHECAR URL ATENDIDA
 url_atendidas <- "http://eolgerenciamento.prefeitura.sp.gov.br/se1426g/frmGerencial/ConsultaAtendidosPeriodo.aspx?Protocolo=3153945"
 atendidas <- readHTMLTable(url_atendidas, stringsAsFactors = F)[[5]]
 names(atendidas) <- c("protocolo", "data.atendimento", "situacao", "espera.encaminhamento")
 atendidas$data.captura <- Sys.time()
 
-inscricoes <- read.csv("~/leo/creche/inscricoes.csv", sep=";")
-novas_inscricoes <- setdiff(inscritos$protocolo, inscricoes$protocolo)
-inscricoes <- rbind(inscricoes, inscritos[inscritos$protocolo %in% novas_inscricoes, ])
-write.table(inscricoes, "inscricoes.csv", row.names = F, sep = ";")
-
 nome.imagem <- paste0("fila", substr(Sys.time(), 1, 4), substr(Sys.time(), 6, 7), substr(Sys.time(), 9, 10), ".RData")
 save.image(nome.imagem)
 
-atendimentos <- read.csv("~/leo/creche/atendimentos.csv", sep=";")
-cadastro <- read.csv("~/leo/creche/cadastro.csv", sep=";")
-inscricoes <- read.csv("~/leo/creche/inscricoes.csv", sep=";")
-
-novas_inscricoes <- setdiff(inscritos$protocolo, inscricoes$protocolo)
-inscricoes <- rbind(inscricoes, inscritos[inscritos$protocolo %in% novas_inscricoes, c(2,3)])
-
-novos_atendimentos <- setdiff(atendidas$protocolo, atendimentos$protocolo)
-atendimentos <- rbind(atendimentos, atendidas[atendidas$protocolo %in% novos_atendimentos, c(1, 2, 3)])
-
-cadastro <- rbind(cadastro,
-                  data.frame(protocolo = unique(setdiff(novos_cadastro$protocolo, inscricoes$protocolo)), 
-                             situacao = "inscrita"))
-
-write.table(atendimentos, "atendimentos.csv", row.names = F, sep = ";")
-write.table(inscricoes, "inscricoes.csv", row.names = F, sep = ";")
-write.table(cadastro, "cadastro.csv", row.names = F, sep = ";")

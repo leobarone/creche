@@ -1,7 +1,7 @@
 rm(list=ls())
 setwd("~/leo/creche/filas")
 
-load("~/leo/creche/filas/dados/filas20161010_final3.RData")
+load("~/leo/creche/filas/dados/filas20161010.RData")
 inscritos20161011 <- inscritos
 desistentes <- df.desistentes
 rm(list = setdiff(ls(), c("alunos", "inscritos20161011", "desistentes")))
@@ -40,9 +40,9 @@ cad_inscricoes <- cad_inscricoes[!duplicated(cad_inscricoes), ]
 
 cadastro <- rbind(cad_atendimentos, cad_inscricoes)
 
-write.table(atendidas, "~/dados/atendidas.csv", row.names = F, sep = ";")
-write.table(cadastro, "~/dados/cadastro.csv", row.names = F, sep = ";")
-write.table(fila, "~/dados/fila.csv", row.names = F, sep = ";")
-write.table(alunos, "~/dados/alunos.csv", row.names = F, sep = ";")
-write.table(desistentes, "~/dados/desistentes.csv", row.names = F, sep = ";")
+write.table(atendidas, "~/leo/creche/filas/dados/atendidas.csv", row.names = F, sep = ";")
+write.table(cadastro, "~/leo/creche/filas/dados/cadastro.csv", row.names = F, sep = ";")
+write.table(fila, "~/leo/creche/filas/dados/fila.csv", row.names = F, sep = ";")
+write.table(alunos, "~/leo/creche/filas/dados/alunos.csv", row.names = F, sep = ";")
+write.table(desistentes, "~/leo/creche/filas/dados/desistentes.csv", row.names = F, sep = ";")
 
