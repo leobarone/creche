@@ -1,0 +1,464 @@
+Dados da prefeitura sobre creches:
+    
+URGENTE (TAREFAS DURANTE GOVERNO HADDAD) - polígonos dos distritos 
+    
+ 1.Dados sobre a coorte por distrito - Listas de crianças cadastradas por fila 
+
+     http://eolgerenciamento.prefeitura.sp.gov.br/se1426g/frmGerencial/ConsultaCandidatosCadastrados.aspx?Protocolo=4292828&TipoPesquisa=P
+
+    -Total de crianças inscritas
+
+    - Diretorias de ensino
+
+    - Distritos de cada diretoria 
+
+    - Faixa de Nascimento
+
+    - Posição na fila
+
+    - Data de cadastramento
+
+    - Data de reativação
+
+    - Se foi por determinação legal (vai para o início da fila)
+
+    - Se escolheu escola específica
+
+
+    2.Consulta de número do protocolo
+
+    - Nome da criança
+
+    - Nome da mãe da criança
+
+    - Data de nascimento da criança
+
+
+
+    3. Shapefiles dos estabelecimentos de ensino:
+
+    https://www.dropbox.com/s/obi8qs0hlxj5fjx/educacao.zip?dl=0
+
+    https://www.dropbox.com/s/gttv08ied0qwzsv/EQUIPAMENTOS_SHP_TEMA_EDUCACAO.zip?dl=0
+
+
+    4. Lista de estabelecimentos por tipo de escola e diretoria de ensino
+
+    http://portal.sme.prefeitura.sp.gov.br/Main/School#/ 
+
+     http://eolgerenciamento.prefeitura.sp.gov.br/frmgerencial/NumerosEscola.aspx?Cod=019493
+
+
+    5.Dados sobre pedidos atendidos
+
+    http://eolgerenciamento.prefeitura.sp.gov.br/se1426g/frmGerencial/ConsultaAtendidosPeriodo.aspx?Protocolo=3153945
+
+
+    6. Possibilidade de cruzamentos com:
+
+    - Dados do Censo
+
+    - Cadastro Bolsa Família (via portal da transparência)
+
+    - Rais (dados da Nadya)
+
+
+    7. Dados dos convênios com a prefeitura:
+
+    http://www3.prefeitura.sp.gov.br/cadlem/secretarias/negocios_juridicos/cadlem/integra.asp?alt=09072011P%20034772011SME
+
+    - projetos pedagógicos (wordcloud?)
+
+    - arquitetura dos prédios
+
+    - laudo técnico sobre as condições de segurança e habitabilidade do prédio
+
+
+    8. Relatório de avaliação da prefeitura
+
+    http://portal.sme.prefeitura.sp.gov.br/Portals/1/Files/25101.pdf
+
+
+    9. Projetos político-pedagógicos e regimentos educacionais das CEIS
+
+    http://portal.sme.prefeitura.sp.gov.br/Main/Noticia/Visualizar/PortalSMESP/Acesse-aqui-os-Projetos-Politicos-Pedagogicos-das-Unidades-Escolares-da-SME-1
+
+    http://portal.sme.prefeitura.sp.gov.br/Main/Noticia/Visualizar/PortalSMESP/Acesse-aqui-os-Regimentos-Educacionais-das-Unidades-Escolares-da-SME
+
+
+Ideias de dados para o Aplicativo (Web e celular)
+
+    A - Mapa com:
+
+        1.Tamanho da fila por distrito
+        2.Velocidade de chamada para vaga
+        3.Dados dos estabelecimentos de ensino (oferta via Estado e via Mercado)
+        4.Dados demográficos dos distritos (sobre demanda por creche - ex. proporção de mulheres no mercado de trabalho, composição dos domicílios)
+        5. Dados de avaliação?
+
+    6. Link para a fila
+
+    7. Dados coletados por nós como horário de entrada e saída (poderíamos pensar em algo como um questionário padronizado)
+
+    B - Informações sobre procedimentos para inscrição em fila, determinação legal, indicação específica
+
+    C - Fórum ou caixa de comentários sobre os estabelecimentos
+
+
+Site americano que pode servir de inspiração:
+    www.privateschoolreview.com/
+
+      
+
+
+
+Ideias para pesquisa:
+
+    Temas gerais: 
+
+    1.inclusão produtiva
+
+    2.acesso a políticas municipais e desigualdade
+
+    3.desigualdade de gênero
+
+    4.famílias e investimento em educação
+
+    5.Estado e Mercado na educação e cuidado
+
+    6.construção institucional da politica de educação infantil
+
+    7.educação infantil e eleições
+
+
+
+
+Lista de instituições/contatos para passar o chapéu:
+
+    Instituto Ayrton Senna
+
+    Itaú Social
+
+    Fundação Lemman
+
+    Fundação Maria Cecília Soto Vidigal
+
+    Fundação Abrinq
+
+    Aprendiz
+
+    Plan International
+
+    Pro Menino (Fundação Telefônica)
+
+    Fundação Carlos Chagas
+
+
+    Lara Simielli
+
+    Antônio Bressolin (Instituto Ayrton Senna e ex-Itau Social)
+
+    Carol Miranda (Instituto Ayrton Senna e ex-Itau Cultural)
+
+    Gabi Miranda (F.Carlos Chagas e ex-INEP)
+
+    Juliano Seabra (Endeavor e contato direto com Lemman)
+
+    Fernando Abrucio (FGV-SP - já me indicou (Leo) para trampo em educação)
+
+    Ilona ...?
+
+    Haroldo Torres?
+
+
+A Fundação Abrinq tem essa ferramenta que gera indicadores e informações sobre creches no Brasil. Chama observatório da criança e do adolescente. Desagrega por municipio, por tipo de estabelecimento (federal, estadual, municipal, privada e publica) e por urbano/rural. Infos sobre matrículas, estabelecimentos, taxa de cobertura e formação de docentes. 
+
+    http://observatoriocrianca.org.br/cenario-infancia/temas/educacao-infantil
+
+
+    Informação,  avaliação.  Analítico 
+
+    Manter o acompanhamento 
+
+    Cardápio  incluso
+
+    app creche /= informações. Plataforma  distinta
+
+    Avaliação de política - terceiro setor
+
+
+Referências bibliográficas pra darmos uma olhada:
+
+        
+
+    Referências bibliográficas 
+
+    ARRIAGADA, Irma. “Cambios y desigualdad en las familias latinoamericanas”. 
+
+    Revista de la Cepal, 77. Santiago de Chile, 2002. 
+
+    BENERÍA, Lourdes. “Crisis de los cuidados, migración internacional y políticas 
+
+    públicas”. In BORDERÍAS, Cristina; CARRASCO, Cristina; TORNS, Teresa (Eds.). El 
+
+    trabajo de cuidados. História, teoría y políticas. Madrid: Los Libros de la Catarata, 
+
+    2011. 
+
+    BILAC, Elisabete Dória. Trabalho e família. Articulações possíveis. Tempo social, São 
+
+    Paulo, v. 26, n. 1, June 2014. 
+
+    BORDERÍAS, Cristina; CARRASCO, Cristina; TORNS, Teresa (Eds.). El trabajo de 
+
+    cuidados. História, teoría y políticas. Madrid: Los Libros de la Catarata, 2011. 
+
+    BRUSCHINI, Cristina. “Trabalho doméstico: inatividade econômica ou trabalho não 
+
+    remunerado?” Revista Brasileira de Estudos Populacionais. São Paulo, v.23, n. 2, 
+
+    jul./dez. 2006. 
+
+    BRUSCHINI, Cristina; LOMBARDI, Maria Rosa. “A Bipolaridade do trabalho feminino 
+
+    no Brasil contemporâneo”. Cadernos de Pesquisa, n.110, p.67-104, jul. 2000. 
+
+    CARRASCO, Cristina (Org.) Mujeres y economía: Nuevas perspectivas para viejos y 
+
+    nuevos problemas. Barcelona: Icaria, 1999. 
+
+    CARRASCO, Cristina. “Sustentabilidade da vida humana: um assunto de 
+
+    mulheres?”. In: FARIA, Nalu e NOBRE, Miriam (orgs.). A produção do viver: ensaios 
+
+    de economia feminista. São Paulo: SOF, 2003. 
+
+    CARRASCO, Cristina. “O paradoxo do cuidado: necessário, porém invisível”. In: 
+
+    JACOME, Márcia; VILLELA, Shirley (Orgs). Orçamentos sensíveis ao gênero: 
+
+    conceitos. Brasília: ONU Mulheres, 2012. 
+
+    CARRASCO, Cristina; TELLO, Enric. “Apuntes para una vida sostenible”. In MATEO, 
+
+    Maria Freixanet. Sostenibilitats. Polítiques públiques des del feminisme i 
+
+    l'ecologismie. Barcelona: ICPS, 2011. 
+
+    COWAN, Ruth. “La 'revolución industrial' en el hogar: tecnología doméstica y cambio 
+
+    social en el siglo XX”. In BORDERÍAS, Cristina; CARRASCO, Cristina; TORNS, 
+
+    Teresa (Eds.). El trabajo de cuidados. História, teoría y políticas. Madrid: Los Libros 
+
+    de la Catarata, 2011. 
+
+    DALLA COSTA, Maria Rosa. Las mujeres y la subversión de la comunidad. Madrid, 
+
+    Siglo XXI, 1975 
+
+    DALY, Mary; LEWIS, Jane. “El concepto de 'social care' y el análisis de los Estados 
+
+    de Bienestar contemporáneos”. In BORDERÍAS, Cristina; CARRASCO, Cristina; 
+
+    TORNS, Teresa (Eds.). El trabajo de cuidados. História, teoría y políticas. Madrid: 
+
+    Los Libros de la Catarata, 2011. 
+
+    DEDECCA, Cláudio. “Tempo, trabalho e gênero”. In: Costa, Ana A.; Oliveira, 
+
+    Eleonora M. de; Lima, Maria E. B de.; SOARES, Vera (orgs). Reconfiguração das 
+
+    relações de gênero no trabalho. São Paulo: CUT, Brasil, 2004. 
+
+    DELPHY, Christine. L'ennemi principal. L'economie politique du patriarcat. Paris: 
+
+    Éditions Syllepse, 2009. 
+
+    DRAIBE, Sonia; RIESCO, Manuel Riesco. “Estados de Bem-Estar Social e 
+
+    estratégias de desenvolvimento na América Latina. Um novo desenvolvimentismo 
+
+    em gestação?” Sociologias, Porto Alegre, ano 13, n27, mai/ago 2011, p. 220-254. 
+
+    ELSON, Diane. “People, development and international financial institutions: an 
+
+    interpretation of the Bretton Woods system”. Review of African Political Economy vol. 
+
+    21 num. 62, 1994. 
+
+    ESQUIVEL, Valeria. La Economía del Cuidado en América Latina: poniendo a los 
+
+    cuidados en el centro de la agenda. El Salvador: PNUD, 2011. 
+
+    FERBER, Marianne; NELSON, Julie. Mas allá del hombre económico. Madrid: 
+
+    Ediciones Cátedra, 2004. 
+
+    FREITAS, Taís Viúdes e SUCUPIRA, Fernanda. As desigualdades de gênero nos 
+
+    usos do tempo. In MORENO, Renata. Feminismo, Economia e Política. São Paulo: 
+
+    SOF. 2014 
+
+    HIMMELWEIT, Susan. “El descubrimiento del 'trabajo no remunerado': 
+
+    consecuencias sociales de la expansión del término 'trabalho'”. In BORDERÍAS, 
+
+    Cristina; CARRASCO, Cristina; TORNS, Teresa (Eds.). El trabajo de cuidados. 
+
+    História, teoría y políticas. Madrid: Los Libros de la Catarata, 2011. 
+
+    HIRATA, Helena; GUIMARÃES, Nadya. Cuidado e cuidadoras. As várias faces do 
+
+    trabalho do care. São Paulo: Atlas, 2012. 
+
+    HIRATA, Helena. “Por quem os sinos dobram?” In: EMÍLIO, Marli; TEIXEIRA, 
+
+    Marilane; NOBRE, Miriam; GODINHO, Tatau (orgs). Trabalho e cidadania ativa para 
+
+    as mulheres – Desafios para as políticas públicas. São Paulo: Coordenadoria 
+
+    Especial da Mulher/ Prefeitura Municipal de São Paulo, 2003. 
+
+    HIRATA, Helena. “A precarização e a Divisão Internacional e Sexual do Trabalho”. 
+
+    Sociologias, Porto Alegre, ano 11, n 21, jan./jun. 2009. 
+
+    HIRATA, Helena. “Teorias e práticas do care: estado sucinto da arte, dados de 
+
+    pesquisa e pontos em debate”. In: FARIA, Nalu; MORENO, Renata. Cuidado, 
+
+    trabalho e autonomia das mulheres. Coleção Cadernos Sempreviva. São Paulo: 
+
+    SOF, 2010. 
+
+    HIRATA, Helena; KERGOAT, Daniele. “Os paradigmas sociológicos à luz da 
+
+    categoria de gênero: qual a renovação da epistemologia do trabalho?. In BAÇAL, S. 
+
+    (org) Trabalho, educação, empregabilidade e gênero. Manaus: EDUA, 2009. 
+
+    IPEA. Comunicados IPEA Nº 149 - Trabalho para o mercado e trabalho para casa: 
+
+    persistentes desigualdades de gênero - 23 de maio de 2012. Disponível em: 
+
+    http://goo.gl/Wb8MLh Acesso em 2 de setembro de 2014. 
+
+    IBGE. Síntese dos indicadores sociais: Uma análise das condições de vida da 
+
+    população brasileira 2012. Estudos e Pesquisas – Informação Demográfica e 
+
+    Socioeconômica, número 29. Rio de Janeiro, 2013. 
+
+    IPEA. Trabalho para o mercado e trabalho para casa : persistentes desigualdades de 
+
+    gênero. Comunicados do Ipea – n°149. IPEA, maio 2012. 
+
+    KERGOAT, Daniele. “Divisão Sexual do Trabalho”. In: HIRATA, Helena et al. 
+
+    Dicionário crítico do feminismo. São Paulo: Editora UNESP, 2009. 
+
+    KERGOAT, Danièle. “Dinâmica e consubstancialidade das relações sociais”. Novos 
+
+    estudos - CEBRAP, São Paulo, n. 86, Mar. 2010. 
+
+    KITTAY, Eva. Love's labor. Essays on Women, Equality and Dependency. Londres: 
+
+    Routledge, 1999. 
+
+    LEITE, Márcia; SALAS, Carlos. Trabalho e desigualdades sob um novo modelo 
+
+    brasileiro de desenvolvimento. Tempo social, São Paulo, v. 26, n. 1, Junho 2014. 
+
+    MACEDO, Márcia. “Mulheres chefes de família e a perspectiva de gênero: trajetórias 
+
+    de um tema e a crítica sobre a feminização da pobreza”. Caderno CRH, v. 21, n. 53, 
+
+    2008. 
+
+    OKIN, Susan. “O gênero, o público e o privado”. Florianópolis: Revista Estudos 
+
+    Feministas, maio-agosto/2008. 
+
+    OLIVEIRA, Orlandina; GARCÍA, Brígida. “Mujeres jefas de hogar y su dinámica 
+
+    familiar”. Congresso da Associação Latino-americana de População. Caxambu, 
+
+    2004. 
+
+    PARADIS, Clarisse. “Os desafios do bem-estar na América Latina, as políticas de 
+
+    igualdade de gênero e as respostas governamentais para a crise do cuidado”. 
+
+    Trabalho apresentado no VI Congresso Latino-americano de Ciência Política. 
+
+    ALACIP. Quito, 2012. 
+
+    PÉREZ, Amaia Orozco. Perspectivas feministas en torno a la economía: el caso de 
+
+    los cuidados. Madrid: Consejo Económico y Social, 2006. 
+
+    PICCHIO, Antonella. “Visibilidad analítica y política del trabajo de reproducción 
+
+    social. In: CARRASCO, Cristina (Org.) Mujeres y economía: Nuevas perspectivas 
+
+    para viejos y nuevos problemas. Barcelona: Icaria, 1999. 
+
+    PICCHIO, Antonella. “Un enfoque macroeconómico ‘ampliado’ de las condiciones de 
+
+    vida”. In: Carrasco, C. (org.). Tiempos, trabajos y gênero. Barcelona: Publicacions 
+
+    Universitat de Barcelona, 2001. 
+
+    PICCHIO, Antonella. “La economía política y la investigación sobre las condiciones 
+
+    de vida”. In: CÉSPEDES, Gemma; RICO, Maribel. Por una economía sobre la vida. 
+
+    Barcelona: Icaria, 2005. 
+
+    RE, Alicia del. “El Estado del Bienestar, las mujeres y las políticas sociales en el 
+
+    seno de la UE”. In VILLOTA, Paloma. Las mujeres y la ciudadanía em el umbral del 
+
+    sigo XXI. Madrid: Complutense, 1998. 
+
+    RODRIGUEZ, Corina. “La cuestión del cuidado: ¿El eslabón perdido del análisis 
+
+    económico?” Revista CEPAL Nº 106, Abril 2012. 
+
+    SORJ, Bila. Socialização do cuidado e desigualdades sociais. Tempo social, São 
+
+    Paulo, v. 26, n. 1, June 2014. 
+
+    SORJ, Bila; FONTES, Adriana. “O care como um regime estratificado: implicações 
+
+    de gênero e classe social”. In HIRATA, Helena; GUIMARÃES, Nadya. Cuidado e 
+
+    cuidadoras. As várias faces do trabalho do care. São Paulo: Atlas, 2012
+
+
+
+# Notas tecnicas em R (depois tiro isso daqui)
+Shapefiles em R - https://www.nceas.ucsb.edu/scicomp/usecases/ReadWriteESRIShapeFiles
+
+
+WELCOME TO RISEUP'S ETHERPAD!
+
+ WARNING: this pad is accessible by anyone who has the address to this pad, if you used an obvious name for the pad, it could be guessed.
+ WARNING: This pad will be DELETED if 30 days go by with no edits. There is NO WAY to recover the pad after this happens, so be careful!
+
+  Riseup is a collective providing secure online communication tools for people and groups working on liberatory social change. If you appreciate the tools Riseup provides, please contribute! We rely on contributions by users to exist: http://riseup.net/donate
+
+Instituto telos
+Arquitetura/historia institucional da política
+Entender o que ocorre em cada gestão
+Centro de convivência  infantil/ assistencia social federal (sem ter as mesmas responsabilidades) 
+Ongs/clandestinidade
+Publico: direta, indireta e convêniada. Convênio não tem controle.
+
+
+
+ 
+
+
